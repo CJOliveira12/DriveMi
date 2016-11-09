@@ -10,10 +10,12 @@ using System.Windows.Forms;
 
 namespace drivemi
 {
-    public partial class Form1 : Form
+    public partial class frmApp : Form
     {
-        public Form1()
+        public frmApp()
         {
+            static double lat = 23.179357;
+            static double lng = 75.7827451;
             InitializeComponent();
         }
     }
