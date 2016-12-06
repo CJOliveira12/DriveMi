@@ -2,7 +2,6 @@
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using GMap.NET.WindowsForms.ToolTips;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -14,8 +13,8 @@ namespace drivemi
 {
     public partial class Dashboard : Form
     {
-        static double lat = 23.179357;
-        static double lng = 2;
+        static double lat = 41.11984;
+        static double lng = -8.6257907;
         public GMapOverlay mapOverlay = new GMapOverlay();
         public GMarkerGoogle cityCenter = new GMarkerGoogle(new PointLatLng(double.Parse(lat.ToString()), double.Parse(lng.ToString())), GMarkerGoogleType.red_pushpin);
         public static List<String> numbersInRadius = new List<string>();
@@ -32,12 +31,8 @@ namespace drivemi
             
             InitializeComponent();
 
-            lblSearch.Text = role;
-
-            if (radioButton3.Checked)
-            {
-                gMapControl.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
-            }
+            gMapControl.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
+            
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -85,12 +80,13 @@ namespace drivemi
                     if (response.IsSuccessStatusCode)
                     {
                         var jsonArray = await response.Content.ReadAsStringAsync();
-                        model = JsonConvert.DeserializeObject<List<ResourceModel>>(jsonArray);
+                        //model = JsonConvert.DeserializeObject<List<ResourceModel>>(jsonArray);
+                        //model = ;
                     }
                 }
-            } catch
+            } catch (Exception e)
             {
-
+                Console.WriteLine(e.Message);
             }
         }
 
@@ -159,6 +155,37 @@ namespace drivemi
 
             mapOverlay.Polygons.Add(gpol);
             gMapControl.Overlays.Add(mapOverlay);
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            lblRadius.Text = "Radius: " + double.Parse(trackBar1.Value.ToString()) / 1000 + "km";
+        }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            UpdateMap(trackBar1.Value);
+        }
+
+        private void gMapControl_OnMapDrag()
+        {
+            cityCenter.Position = gMapControl.Position;
+            UpdateMap(trackBar1.Value);
+        }
+
+        private void trackBarZoom_Scroll(object sender, EventArgs e)
+        {
+            lblZoom.Text = "Zoom: " + trackBarZoom.Value;
+        }
+
+        private void trackBarZoom_ValueChanged(object sender, EventArgs e)
+        {
+            gMapControl.Zoom = trackBarZoom.Value;
+        }
+
+        private void gMapControl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

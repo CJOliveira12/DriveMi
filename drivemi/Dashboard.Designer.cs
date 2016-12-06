@@ -30,6 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.serviçosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.históricoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblSearch = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -41,9 +44,6 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.lblZoom = new System.Windows.Forms.Label();
             this.trackBarZoom = new System.Windows.Forms.TrackBar();
-            this.serviçosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.novoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.históricoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarZoom)).BeginInit();
@@ -66,6 +66,27 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
             this.toolStripMenuItem1.Text = "Inicio";
+            // 
+            // serviçosToolStripMenuItem1
+            // 
+            this.serviçosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.novoToolStripMenuItem1,
+            this.históricoToolStripMenuItem});
+            this.serviçosToolStripMenuItem1.Name = "serviçosToolStripMenuItem1";
+            this.serviçosToolStripMenuItem1.Size = new System.Drawing.Size(62, 20);
+            this.serviçosToolStripMenuItem1.Text = "Serviços";
+            // 
+            // novoToolStripMenuItem1
+            // 
+            this.novoToolStripMenuItem1.Name = "novoToolStripMenuItem1";
+            this.novoToolStripMenuItem1.Size = new System.Drawing.Size(122, 22);
+            this.novoToolStripMenuItem1.Text = "Novo";
+            // 
+            // históricoToolStripMenuItem
+            // 
+            this.históricoToolStripMenuItem.Name = "históricoToolStripMenuItem";
+            this.históricoToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.históricoToolStripMenuItem.Text = "Histórico";
             // 
             // logoutToolStripMenuItem
             // 
@@ -152,6 +173,7 @@
             this.gMapControl.Size = new System.Drawing.Size(823, 362);
             this.gMapControl.TabIndex = 508;
             this.gMapControl.Zoom = 14D;
+            this.gMapControl.Load += new System.EventHandler(this.gMapControl_Load);
             // 
             // lblRadius
             // 
@@ -176,6 +198,7 @@
             this.trackBar1.TabIndex = 510;
             this.trackBar1.TickFrequency = 500;
             this.trackBar1.Value = 710;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // lblZoom
             // 
@@ -198,27 +221,7 @@
             this.trackBarZoom.TabIndex = 513;
             this.trackBarZoom.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
             this.trackBarZoom.Value = 14;
-            // 
-            // serviçosToolStripMenuItem1
-            // 
-            this.serviçosToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.novoToolStripMenuItem1,
-            this.históricoToolStripMenuItem});
-            this.serviçosToolStripMenuItem1.Name = "serviçosToolStripMenuItem1";
-            this.serviçosToolStripMenuItem1.Size = new System.Drawing.Size(62, 20);
-            this.serviçosToolStripMenuItem1.Text = "Serviços";
-            // 
-            // novoToolStripMenuItem1
-            // 
-            this.novoToolStripMenuItem1.Name = "novoToolStripMenuItem1";
-            this.novoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.novoToolStripMenuItem1.Text = "Novo";
-            // 
-            // históricoToolStripMenuItem
-            // 
-            this.históricoToolStripMenuItem.Name = "históricoToolStripMenuItem";
-            this.históricoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.históricoToolStripMenuItem.Text = "Histórico";
+            this.trackBarZoom.Scroll += new System.EventHandler(this.trackBarZoom_Scroll);
             // 
             // Dashboard
             // 
