@@ -34,9 +34,9 @@ namespace drivemi
             if (dt.Rows[0][0].ToString() == "1")
             {
                 Hide();
-                Dashboard dash = new Dashboard(dt.Rows[0][0].ToString());
-                
-                dash.Show();
+                frmApp fapp = new frmApp();
+
+                fapp.Show();
             } else
             {
                 MessageBox.Show("Please check your username and password");

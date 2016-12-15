@@ -124,11 +124,11 @@
     <Compile Include="-\System\DisposableWithEvents.cs" />
     <Compile Include="-\System\IComparableExtensions.cs" />
     <Compile Include="-\Throw.cs" />
-    <Compile Include="Dashboard.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -145,8 +145,8 @@
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="ResourceModels.cs" />
-    <EmbeddedResource Include="Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
