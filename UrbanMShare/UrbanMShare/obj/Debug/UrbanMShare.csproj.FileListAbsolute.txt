@@ -1,0 +1,51 @@
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe.config
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.pdb
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.Properties.Resources.resources
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.csproj.GenerateResource.Cache
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.exe
+c:\users\teszero\documents\visual studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.pdb
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.historic.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.login.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.newaccount.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.search.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.services.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.profile.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.urbanmshare.resources
+C:\Users\TesZero\Documents\Visual Studio 2015\Projects\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.csprojResolveAssemblyReference.cache
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe.config
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.exe
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.pdb
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.pdb
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.csprojResolveAssemblyReference.cache
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.urbanmshare.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.historic.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.login.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.newaccount.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.Properties.Resources.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.search.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.services.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.csproj.GenerateResource.Cache
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.rent.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.AHPdebug.resources
+F:\curso organizado\5º Semestre\Sistemas de Apoio à Decisão\Projeto\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.evaluation.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe.config
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.pdb
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.AHPdebug.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.evaluation.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.rent.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.urbanmshare.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.historic.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.login.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.newaccount.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.Properties.Resources.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.search.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.services.resources
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.csproj.GenerateResource.Cache
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.exe
+C:\Users\TesZero\Desktop\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.pdb
+C:\Users\SPOKr\Desktop\Drivemi\UrbanMShare\UrbanMShare\bin\Debug\UrbanMShare.exe.config
+C:\Users\SPOKr\Desktop\Drivemi\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.exe
+C:\Users\SPOKr\Desktop\Drivemi\UrbanMShare\UrbanMShare\obj\Debug\UrbanMShare.pdb
